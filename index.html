@@ -5,8 +5,268 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kerala Tourism</title>
+    <link rel="shortcut icon" href="images/logokerala.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awsome kit -->
+    <script src="https://kit.fontawesome.com/541277e46f.js" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 <body>
+  <!-- Landing-Page -->
+    <section class="landing">
+            <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg nav-bg">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                      <img src="/images/logo.png"  alt="" height="50">
+                  </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navlink-spacing" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link nav-active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/forms/explore.html">Explore</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/forms/404.html">Bookings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#category">Category</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/forms/about.html">AboutUs</a>
+                  </li>
+                  <li class="nav-item nav-login">
+                    <a class="nav-link" href="/forms/login.html">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- Navbar ends -->
+
+    <!-- Carousel -->
+    <section class="hero-page">
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators" >
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousel-shape">
+                <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/images/bg3.jpg" class="d-block w-100" height="500px" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="kerala">K E R A L A</h5>
+                    <p>Explore the culture and Tradition</p>
+                </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="10000">
+                <img src="/images/bg1.jpg" class="d-block w-100" height="500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ALAPPUZHA</h5>
+                    <p>Town with canals, backwaters, beaches, and lagoons</p>
+                </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="10000">
+                <img src="/images/bg2.jpg" class="d-block w-100" height="500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>WAYANAD</h5>
+                    <p>Elevated picturesque mountainous plateau in the Western Ghats</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control" aria-hidden="true"><i class="fa-solid fa-circle-arrow-left"></i></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control" aria-hidden="true"><i class="fa-solid fa-circle-arrow-right"></i></span>
+            </button>
+        </div>
+    </div>
+    <!-- carousel ends -->
+    <div class="explorebtn">
+        <h4>EXPLORE</h4>
+        <a href=""><i class="fa-solid fa-circle-chevron-down"></i></a>
+    </div>
+
+    </section>
+  <!-- Landing-Page end -->
+
+
+  <!-- Explore -->
+   <section id="search">
+           <!-- Search Booking card -->
+    <div class="search-booking">
+        <div class="search-items">
+            <div class="search-title">
+                <i class="fa-solid fa-location-dot"></i>
+                <label for="">Location</label>
+            </div>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="where to go?">
+        </div>
+        <div class="search-items">
+            <div class="search-title">
+               <i class="fa-solid fa-calendar-day"></i>
+                <label for="">Date</label>
+            </div>
+            <input type="date" class="form-control" placeholder="choose date">
+        </div>
+        <div class="search-items">
+            <div class="search-title">
+                <i class="fa-solid fa-person-circle-plus"></i>
+                <label for="">Guests</label>
+            </div>
+            <label for="">-  Add guest  +</label>
+        </div>
+        <div class="search-items search-icon">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+    <!-- Seacrch Booking card ends -->
+    
+    <!-- Tile cards -->
+    <div class="tile-head">
+        <h2>Experience Kerala</h2>
+    </div>
+   <div class="tile-card">
+    <div class="row row-cols-1 row-cols-md-3 g-4 tile-card">
+        <div class="col">
+          <div class="card">
+            <img src="/images/resort1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Resorts</h5>
+              <p class="card-text">Lined by coconut trees and backwaters just lying next to the backwaters, Kerala beaches are on of the top attractions of the state. Beach resorts to enjoy a beach holiday in this gorgeous destination</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/images/painting.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Art</h5>
+              <p class="card-text">The traditional paintings of Kerala are a fine art of skill and creative excellence. Most of the works of Kerala are shown here. They bear the stamp of uniqueness in techniques used and aesthetics.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/images/kathakli.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tradition</h5>
+              <p class="card-text">Kerala has around 50 forms of traditional dances. Theyyam, Thiruvathirakali, Chakyar Koothu Koodiyattam, and Ottamthullal are some of the prominent dances.Explore about the unique classical dance forms of Kerala.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/images/kerala cusine.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Food Cusine</h5>
+              <p class="card-text">The cuisine of Kerala is known for its generous use of spices, coconuts and vegetables exclusively grown in the region. The variety of flavours in this cuisine range from spicy to mellow and sweet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="/images/activites.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Activites</h5>
+                <p class="card-text">Kerala offers some of the most diverse kinds of adventure sports in India that are a must try for an adventure enthusiast, like Parasailing, Trekking, Tree House Stay, Kayaking, Wildlife Safari, Mountain Climbing </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/images/travel.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Travel</h5>
+                <p class="card-text">Tourists that would rather travel longer distances along the state of Kerala enjoy the travel through boats, buses, trains, taxis, flights etc. We make it available to you for booking all within a single option through our website.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+   </div>
+    <!-- Tile cards -->
+   </section>
+   <!-- Explore Ends -->
+
+
+   <!-- Category Things to do -->
+   <div class="category" id="category">
+    <div class="category-head">
+        <h2>Things to do Kerala</h2>
+    </div>
+    <div class="category-card">
+        <div class="row row-cols-1 row-cols-md-3 g-4 category-body">
+            <div class="col">
+              <div class="card">
+                <img src="/images/camping.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                   <h5 class="card-title">CAMPING</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/images/fishing.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                   <h5 class="card-title">FISHING</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/images/culture tour.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                   <h5 class="card-title">CULTURE TOUR</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/images/houseboat cruise.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HOUSEBOAT CRUISE</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/images/paragliding.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PARAGLIDING</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/images/tea trail.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                   <h5 class="card-title">TEA TRAIL</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+   </div>
+
+   <!-- Category Things to do ends -->
+
+
+
+   <!-- Bootstrap Javascript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
