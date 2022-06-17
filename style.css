@@ -67,6 +67,9 @@ section{
     border-radius: 30px;
     box-shadow:40px 50px 100px 0px;
 }
+.carousel-shape img{
+    height: 500px;
+}
 .carousel-control i{
     font-size: 30px;
     color: rgba(255, 166, 0, 0.616);
